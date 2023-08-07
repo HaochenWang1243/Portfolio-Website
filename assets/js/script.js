@@ -60,18 +60,18 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Haochen Wang";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "./assets/images/屏幕截图 2023-08-07 102729.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", "./assets/images/屏幕截图 2023-08-07 102729.jpg");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Backend Development", "C#/Unity Game Development", "Machine Learning"],
+    strings: ["Web Development", "C#/Unity Game Development", "Machine Learning", "Mathematics", "Pixel Art"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
