@@ -1,7 +1,7 @@
 [
   {
     "name": "Online Chess-and-Chat",
-    "desc": "online multi-player chess-and-chat game. Built using Javascript, HTML/CSS, express.js, SQL, Docker, Redis, SockerIO, Google Cloud Storage and MySQL server",
+    "desc": "online multi-player chess-and-chat game.\n Built using Javascript, HTML/CSS, express.js, SQL, Docker, Redis, SockerIO, JSON Web Token, Google Cloud Storage and MySQL server.",
     "image": "chessgame",
     "category": "android",
     "links": {
@@ -11,7 +11,7 @@
   },
   {
     "name": "Spotify Playlist Quick Maker",
-    "desc": "Web app for quickly previewing songs from Spotify library and making playlists from them",
+    "desc": "Web app for quickly previewing songs from Spotify library and making playlists from them.\n Built using Javascript, HTML/CSS, ReactJS, and the Spotify API.",
     "image": "playlistmaker",
     "category": "android",
     "links": {
@@ -21,7 +21,7 @@
    },
    {
     "name": "Roommate Hub",
-    "desc": "Web app for managing shared tasks and bills between college roommates who live off-campus",
+    "desc": "Web app for managing shared tasks and bills between college roommates who live off-campus. \n Built using Javascript, HTML/CSS.",
     "image": "roommatehub",
     "category": "android",
     "links": {
