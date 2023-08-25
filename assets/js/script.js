@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Backend Development", "Frontend Development", "C#/Unity Game Development", "Machine Learning", "Mathematics", "Pixel Art"],
+    strings: ["Web Development", "Machine Learning", "C#/Unity Game Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -104,10 +104,10 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
-function showProjects(projects) {
+function showProjects(projects) { //change projects
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 8).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 8).forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="project" />
