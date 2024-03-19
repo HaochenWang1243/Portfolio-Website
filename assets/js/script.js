@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Web Development", "Machine Learning", "C#/Unity Game Development"],
+    strings: ["Web Development", "Machine Learning", "Cloud Computing"], //C#/Unity Game Development
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
