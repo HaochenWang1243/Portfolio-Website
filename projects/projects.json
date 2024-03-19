@@ -5,7 +5,7 @@
     "image": "chessgame",
     "category": "android",
     "links": {
-      "view": "http://164.92.79.148:5000/register",
+      "view": "http://24.199.96.224/:5000/register",
       "code": "https://github.com/HaochenWang1243/online-chess"
     }
   },
